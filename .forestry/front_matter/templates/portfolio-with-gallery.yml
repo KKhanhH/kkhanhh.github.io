@@ -36,3 +36,5 @@ fields:
 - type: text
   name: lead_text
   label: lead_text
+pages:
+- _posts/test.md
