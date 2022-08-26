@@ -13,18 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Hello. I'm Jami Gibbs."
-email: 'jami0821@gmail.com'
+title: "Khanh Hoang."
+email: 'kkhanhhoang@outlook.com'
 description: "I'm a software developer and designer from Chicago creating useful things for the web."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jamigibbs.github.io/phantom" # the base hostname & protocol for your site, e.g. https://example.com
-twitter_username: 'jamigibbs'
-github_username: 'jamigibbs'
-medium_username: 'blog.jamigibbs.com'
+url: "https://kkhanhh.github.io/phantom" # the base hostname & protocol for your site, e.g. https://example.com
+github_username: 'kkhanhh'
+linkedin_username: "khanh-hoang-352b10117"
 
 # Build settings
 markdown: kramdown
-# theme: phantom # Uncomment once published to RubyGems
+theme: phantom
 plugins:
   - jekyll-paginate-v2
 
@@ -89,13 +88,14 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_text: '© 2018 Jami Gibbs'
-admin_name: 'Jami Gibbs'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
-enable_contact: false
+footer_text: '© 2022 Khanh Hoang'
+admin_name: 'Khanh Hoang'
+google_analytics: "G-5EKTESEZK0" # Update with your own tracking ID
+enable_contact: true
 
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
+  - { url: '/projects', text: 'Projects'}
