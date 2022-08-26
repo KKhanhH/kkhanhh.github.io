@@ -23,7 +23,7 @@ linkedin_username: "khanh-hoang-352b10117"
 
 # Build settings
 markdown: kramdown
-theme: phantom
+remote-theme: jamigibbs/phantom
 plugins:
   - jekyll-paginate-v2
 
