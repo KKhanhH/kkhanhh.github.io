@@ -20,12 +20,13 @@ fields:
 - type: text
   name: tags
   label: tags
-- type: file
-  name: featured_image
-  label: featured_image
 - type: text
   name: project_link
   label: project_link
+- name: featured_image
+  type: image_gallery
+  config: {}
+  label: featured_image
 - type: text
   name: button_icon
   label: button_icon
