@@ -2,9 +2,11 @@
 layout: inner
 position: right
 title: Rescue Themes
-date: 2016-02-20T15:56:00.000+00:00
+date: 2016-02-20 15:56:00 +0000
 categories: development design
-tags: WordPress PHP Sass
+tags:
+- WordPress PHP Sass
+- Hello
 featured_image: "/img/posts/03_rescue-themes-1130x864-2x.png"
 project_link: https://rescuethemes.com
 button_text: Visit Rescue Themes
