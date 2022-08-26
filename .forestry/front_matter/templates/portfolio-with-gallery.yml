@@ -1,0 +1,37 @@
+---
+label: Portfolio with Gallery
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: position
+  label: position
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: categories
+  label: categories
+- type: text
+  name: tags
+  label: tags
+- type: file
+  name: featured_image
+  label: featured_image
+- type: text
+  name: project_link
+  label: project_link
+- type: text
+  name: button_icon
+  label: button_icon
+- type: text
+  name: button_text
+  label: button_text
+- type: text
+  name: lead_text
+  label: lead_text
