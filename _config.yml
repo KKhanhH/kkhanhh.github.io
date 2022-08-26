@@ -17,13 +17,13 @@ title: "Khanh Hoang."
 email: 'kkhanhhoang@outlook.com'
 description: "I'm a software developer and designer from Chicago creating useful things for the web."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kkhanhh.github.io/phantom" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://kkhanhh.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 github_username: 'kkhanhh'
 linkedin_username: "khanh-hoang-352b10117"
 
 # Build settings
 markdown: kramdown
-remote-theme: jamigibbs/phantom
+theme: jamigibbs/phantom
 plugins:
   - jekyll-paginate-v2
 
