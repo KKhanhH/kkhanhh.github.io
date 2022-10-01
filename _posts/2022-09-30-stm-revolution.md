@@ -5,9 +5,11 @@ title: STM Revolution
 date: 2022-09-30 22:18:00 -0700
 categories: development
 tags:
-- Embedded
+- Embedded Systems
 - Microcontroller
 - C
+- SPI
+- GPIO
 featured_image:
 - "/uploads/stmrevolution-image.jpg"
 - "/uploads/stmrevolution-image2.jpg"

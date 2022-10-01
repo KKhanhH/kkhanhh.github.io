@@ -1,15 +1,16 @@
 ---
 title: Khanh Hoang.
 email: ''
-description: I'm a Computer Engineering student studying at Cal Poly. Currently looking
-  for a Software Engineering position. My skillsets include embedded, systems, and
-  backend development.
+description: I'm a senior Computer Engineering student studying at Cal Poly currently looking
+  for a Software Engineering position. I have an interest in embedded, networks, security development.
 baseurl: ''
 url: https://kkhanhh.github.io
 github_username: kkhanhh
 linkedin_username: khanh-hoang-352b10117
 markdown: kramdown
 theme: phantom
+theme_text: Theme used is Phantom
+theme_url: https://github.com/jamigibbs/phantom
 plugins:
 - jekyll-paginate-v2
 pagination:
@@ -32,13 +33,12 @@ pagination:
   indexpage: index
 footer_text: "© 2022 Khanh Hoang"
 admin_name: Khanh Hoang
+profile_pic: "/img/KhanhPFP.jpg"
 google_analytics: G-5EKTESEZK0
 enable_contact: true
 enable_nav: true
 nav_item:
 - url: "/"
   text: Home
-- url: "/about"
-  text: About
 - url: "/projects"
   text: Projects
