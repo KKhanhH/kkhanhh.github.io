@@ -1,14 +1,20 @@
 ---
 layout: inner
 position: left
-title: 'Weathercast'
-date: 2016-02-20 15:56:00
+title: STM Revolution
+date: 2022-09-30 22:18:00 -0700
 categories: development
-tags: JavaScript AngularJS API Sass
-featured_image: 
-  - '/img/posts/02_weathercast-1130x864-2x.png'
-project_link: 'http://github.com/jamigibbs/weathercast'
-button_icon: 'github'
-button_text: 'Visit Project'
-lead_text: 'A simple weather forecast app for your favorite city.'
+tags:
+- Embedded
+- Microcontroller
+- C
+featured_image:
+- "/uploads/stmrevolution-image.jpg"
+- "/uploads/stmrevolution-image2.jpg"
+project_link: https://youtu.be/l4vdHniwLBM
+button_icon: youtube
+button_text: View Project Demo
+lead_text: An embedded systems game based on the Dance Dance Revolution series running
+  on the STM32 Microcontroller.
+
 ---
