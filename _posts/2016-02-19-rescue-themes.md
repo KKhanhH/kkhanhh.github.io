@@ -7,7 +7,8 @@ categories: development design
 tags:
 - WordPress PHP Sass
 - Hello
-featured_image: "/img/posts/03_rescue-themes-1130x864-2x.png"
+featured_image:  
+  - "/img/posts/03_rescue-themes-1130x864-2x.png"
 project_link: https://rescuethemes.com
 button_text: Visit Rescue Themes
 button_icon: wordpress
