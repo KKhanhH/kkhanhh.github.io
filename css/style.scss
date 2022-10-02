@@ -436,3 +436,17 @@ pre {
     .highlight .vg { color: #000000 } /* Name.Variable.Global */
     .highlight .vi { color: #000000 } /* Name.Variable.Instance */
     .highlight .il { color: #0000cf; font-weight: bold } /* Literal.Number.Integer.Long */
+
+.alertbox {
+  position:fixed;
+  width: 250px;
+  height: 50px;
+  margin: 5% auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  left: 0;
+  right: 0;
+  top:5px;
+  z-index:9999; 
+  border-radius:0px;
+}

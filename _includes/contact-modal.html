@@ -4,25 +4,69 @@
     <div class="modal-content">
 
       <div class="modal-header">
+        <div id="success_alert" class="alertbox hide" role="alert">
+          <button type="button" class="close" data-hide="alert" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <div>Email sent successfully!</div>
+        </div>
+        <div id="fail_alert" class="alertbox hide" role="alert">
+          <button type="button" class="close" data-hide="alert" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <div>Email failed to send!</div>
+        </div>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
       <div class="modal-body">
 
-        <form class="form-horizontal form-contact clearfix" action="mailto:kkhanhhoang@outlook.com" method="get" enctype="text/plain">
-          <label for="title" class="message-label">Send me an email</label>
+        <form id="contact-form" class="form-horizontal form-contact clearfix" action="http://138.2.227.62:5000/api/contact"
+          method="POST" class="needs-validation">
+          <label class="message-label">Send me an email</label>
 
           <div class="form-group">
+            <label for="form_name" class="sr-only">Your Name</label>
+            <input type="text" class="form-control" id="form_name" name="name" placeholder="Your Name" required>
+            <label for="form_email" class="sr-only">Email</label>
+            <input type="email" class="email form-control" id="form_email" name="email" placeholder="Your Email" required>
 
-            <label for="email" class="sr-only">Subject</label>
-            <input type="text" class="subject form-control" name="subject" placeholder="Subject"></textarea>
-            <textarea class="message form-control" rows="8" name="body" placeholder="Type your message..."></textarea>
+            <label for="form_subject" class="sr-only">Subject</label>
+            <input type="text" class="subject form-control" id="form_subject" name="subject"
+              placeholder="Subject" required></textarea>
+            <textarea class="message form-control" rows="8" name="message" placeholder="Type your message..." required></textarea>
           </div>
 
-          <input type="submit" class="btn btn-default" style="float-right" value="Send">
+          <input type="submit" class="btn btn-default" style="float: right;" value="Send">
 
         </form>
+        <script type="text/javascript">
+          $(document).ready(function () {
+            $("[data-hide]").on("click", function () {
+              $(this).closest("." + $(this).attr("data-hide")).hide();
+            });
 
+            let form = $('#contact-form');
+            form.submit(function (e) {
+              e.preventDefault();
+              $("#success_alert").hide();
+              $("#fail_alert").hide();
+              $.ajax({
+                type: form.attr('method'),
+                url: form.attr('action'),
+                data: $(this).serialize(),
+                success: function () {
+                  $('#success_alert').removeClass('hide').addClass('alert alert-success alert-dismissible text-center').slideDown().show();
+                  $('#modal').modal('show');
+                },
+                error: function () {
+                  $('#fail_alert').removeClass('hide').addClass('alert alert-danger alert-dismissible text-center').slideDown().show();
+                  $('#modal').modal('show');
+                }
+              });
+
+
+            });
+          });
+        </script>
       </div>
 
     </div>
