@@ -5,18 +5,29 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: text
-  name: position
-  label: position
+  config:
+    required: true
+  default: inner
 - type: text
   name: title
   label: title
+  config:
+    required: true
+- type: text
+  name: position
+  label: position
+  config:
+    required: true
+    min: 
+  default: ''
+  description: left or right
 - type: datetime
   name: date
   label: date
 - type: text
   name: categories
   label: categories
+  default: development
 - type: text
   name: tags
   label: tags
