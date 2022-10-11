@@ -24,13 +24,15 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: categories
-  label: categories
-  default: development
-- type: text
-  name: tags
+- name: tags
+  type: tag_list
+  default: []
   label: tags
+- name: categories
+  type: tag_list
+  default:
+  - development
+  label: categories
 - type: text
   name: project_link
   label: project_link
