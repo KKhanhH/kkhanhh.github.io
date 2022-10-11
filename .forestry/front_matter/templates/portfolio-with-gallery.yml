@@ -50,6 +50,6 @@ fields:
   name: lead_text
   label: lead_text
 pages:
+- _posts/2022-04-10-ukraine-map-info-hub.md
 - _posts/emoteimgify.md
 - _posts/memesupreme.md
-- _posts/ukraine-map-info-hub.md
