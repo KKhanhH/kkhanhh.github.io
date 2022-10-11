@@ -7,7 +7,7 @@ tags:
 categories:
 - development
 title: EmoteImgify
-position: left
+position: right
 date: 2021-07-30 00:00:00 -0700
 project_link: https://github.com/KKhanhH/EmoteImgify
 featured_image:

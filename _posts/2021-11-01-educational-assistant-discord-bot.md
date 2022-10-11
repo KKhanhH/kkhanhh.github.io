@@ -8,7 +8,7 @@ tags:
 categories:
 - development
 title: Educational Assistant Discord Bot
-position: right
+position: left
 date: 2021-11-01T00:00:00.000-07:00
 project_link: https://github.com/BenderNation/EdumacationBot
 featured_image:

@@ -8,7 +8,7 @@ tags:
 categories:
 - development
 title: MemeSupreme
-position: right
+position: left
 date: 2020-03-01 00:00:00 -0800
 project_link: https://devpost.com/software/meme-supreme
 featured_image:
