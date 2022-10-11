@@ -35,11 +35,14 @@ pagination:
 footer_text: "© 2022 Khanh Hoang"
 admin_name: Khanh Hoang
 profile_pic: "/uploads/profilekhanh.png"
+resume_file: "/uploads/ResumeNoContact.pdf"
 google_analytics: G-5EKTESEZK0
 enable_contact: true
 enable_nav: true
 nav_item:
 - url: "/"
   text: Home
+- url: "/resume"
+  text: Resume
 - url: "/projects"
   text: Projects

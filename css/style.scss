@@ -148,6 +148,12 @@ button.btn, input.btn {
       padding-right: 0.5em;
     }
   }
+  .profile {
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    border: 0.75em solid lightgray;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -206,7 +212,7 @@ button.btn, input.btn {
 /*--------------------------------------------------------------
 	3.0 Posts
 --------------------------------------------------------------*/
-#portfolio .container {
+main .container {
   margin-top: 10em;
   @include bp-xsmall {
     margin-top: 2em;

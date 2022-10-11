@@ -1,0 +1,24 @@
+---
+layout: content
+pagination:
+  enabled: false
+title: Resume
+permalink: /resume
+section_title: My Resume
+section_subtitle: A list of my experiences and achievements.
+---
+<div id="resume-wrapper">
+  {% if page.section_title != '' %}
+  <h2 class="text-center">{{ page.section_title }}</h2>
+  {% endif %}
+  {% if page.section_subtitle != '' %}
+  <p class="section-subtitle text-center">{{ page.section_subtitle }}</p>
+  {% endif %}
+  <div class="text-center">
+    <a href="{{site.resume_file}}">
+      <button class="btn btn-default btn-lg"><i class="fa fa-download"></i>Download PDF</button>
+    </a>
+  </div>
+
+  <iframe src="{{site.resume_file}}" height="800px" width="100%"></iframe>
+</div>
