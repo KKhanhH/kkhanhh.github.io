@@ -5,7 +5,7 @@ description: I'm a senior Computer Engineering student studying at Cal Poly curr
   looking for a Software Engineering position. I have an interest in embedded, networks,
   security development.
 baseurl: ''
-url: https://kkhanhh.github.io
+url: https://www.kkhanhhoang.com
 github_username: kkhanhh
 linkedin_username: khanh-hoang-352b10117
 markdown: kramdown
@@ -34,7 +34,7 @@ pagination:
   indexpage: index
 footer_text: "© 2022 Khanh Hoang"
 admin_name: Khanh Hoang
-profile_pic: "/uploads/KhanhProfile.png"
+profile_pic: "/uploads/profilekhanh.png"
 google_analytics: G-5EKTESEZK0
 enable_contact: true
 enable_nav: true
