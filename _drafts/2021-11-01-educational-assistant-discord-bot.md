@@ -16,7 +16,7 @@ featured_image:
 - "/uploads/edumacation3.jpg"
 - "/uploads/edumacation1.jpg"
 button_icon: github
-button_text: Github
+button_text: GitHub
 lead_text: A Discord bot designed to assist with school by offering features such
   as reminders and note storage. It also integrates with Canvas LMS to show grades
   for classes.
