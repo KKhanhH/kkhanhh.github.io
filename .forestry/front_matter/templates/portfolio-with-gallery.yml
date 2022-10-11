@@ -50,6 +50,6 @@ fields:
   name: lead_text
   label: lead_text
 pages:
+- _posts/2020-03-01-memesupreme.md
+- _posts/2021-07-30-emoteimgify.md
 - _posts/2022-04-10-ukraine-map-info-hub.md
-- _posts/emoteimgify.md
-- _posts/memesupreme.md
