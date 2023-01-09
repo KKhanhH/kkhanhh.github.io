@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Khanh Hoang</title>
+    <description>Hi, welcome to my website.
+I'm a senior Computer Engineering student studying at Cal Poly currently looking for a Software Engineering position. I have an interest in embedded, networks, security development.
+</description>
+    <link>https://www.kkhanhhoang.com/</link>
+    <atom:link href="https://www.kkhanhhoang.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 09 Jan 2023 03:09:21 +0000</pubDate>
+    <lastBuildDate>Mon, 09 Jan 2023 03:09:21 +0000</lastBuildDate>
+    <generator>Jekyll v3.9.2</generator>
+    
+      <item>
+        <title>TinyFS File System</title>
+        <description>
+</description>
+        <pubDate>Sat, 01 Oct 2022 05:18:00 +0000</pubDate>
+        <link>https://www.kkhanhhoang.com/development/2022/10/01/tinyfs.html</link>
+        <guid isPermaLink="true">https://www.kkhanhhoang.com/development/2022/10/01/tinyfs.html</guid>
+        
+        <category>Operating Systems</category>
+        
+        <category>File System</category>
+        
+        <category>Python</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>STM Revolution</title>
+        <description>
+</description>
+        <pubDate>Sat, 01 Oct 2022 05:18:00 +0000</pubDate>
+        <link>https://www.kkhanhhoang.com/development/2022/10/01/stm-revolution.html</link>
+        <guid isPermaLink="true">https://www.kkhanhhoang.com/development/2022/10/01/stm-revolution.html</guid>
+        
+        <category>Embedded Systems</category>
+        
+        <category>Microcontroller</category>
+        
+        <category>C</category>
+        
+        <category>SPI</category>
+        
+        <category>GPIO</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Ukraine Map Info Hub</title>
+        <description>
+</description>
+        <pubDate>Sun, 10 Apr 2022 07:00:00 +0000</pubDate>
+        <link>https://www.kkhanhhoang.com/development/2022/04/10/ukraine-map-info-hub.html</link>
+        <guid isPermaLink="true">https://www.kkhanhhoang.com/development/2022/04/10/ukraine-map-info-hub.html</guid>
+        
+        <category>React</category>
+        
+        <category>mySQL</category>
+        
+        <category>TypeScript</category>
+        
+        <category>Hashed Password Auth</category>
+        
+        <category>Google Maps API</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Educational Assistant Discord Bot</title>
+        <description>
+</description>
+        <pubDate>Mon, 01 Nov 2021 07:00:00 +0000</pubDate>
+        <link>https://www.kkhanhhoang.com/development/2021/11/01/educational-assistant-discord-bot.html</link>
+        <guid isPermaLink="true">https://www.kkhanhhoang.com/development/2021/11/01/educational-assistant-discord-bot.html</guid>
+        
+        <category>REST API</category>
+        
+        <category>SQLite3</category>
+        
+        <category>nodeJS</category>
+        
+        <category>JavaScript</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>EmoteImgify</title>
+        <description>
+</description>
+        <pubDate>Fri, 30 Jul 2021 07:00:00 +0000</pubDate>
+        <link>https://www.kkhanhhoang.com/development/2021/07/30/emoteimgify.html</link>
+        <guid isPermaLink="true">https://www.kkhanhhoang.com/development/2021/07/30/emoteimgify.html</guid>
+        
+        <category>REST API</category>
+        
+        <category>OAuth2</category>
+        
+        <category>Python</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>MemeSupreme</title>
+        <description>
+</description>
+        <pubDate>Sun, 01 Mar 2020 08:00:00 +0000</pubDate>
+        <link>https://www.kkhanhhoang.com/development/2020/03/01/memesupreme.html</link>
+        <guid isPermaLink="true">https://www.kkhanhhoang.com/development/2020/03/01/memesupreme.html</guid>
+        
+        <category>Google Cloud Vision</category>
+        
+        <category>Electron</category>
+        
+        <category>NodeJS</category>
+        
+        <category>JavaScript</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+  </channel>
+</rss>

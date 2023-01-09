@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Khanh Hoang</title>
+ <link href="https://www.kkhanhhoang.com/atom.xml" rel="self"/>
+ <link href="https://www.kkhanhhoang.com/"/>
+ <updated>2023-01-09T03:09:21+00:00</updated>
+ <id>https://www.kkhanhhoang.com</id>
+ <author>
+   <name>Khanh Hoang</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>TinyFS File System</title>
+   <link href="https://www.kkhanhhoang.com/development/2022/10/01/tinyfs.html"/>
+   <updated>2022-10-01T05:18:00+00:00</updated>
+   <id>https://www.kkhanhhoang.com/development/2022/10/01/tinyfs</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>STM Revolution</title>
+   <link href="https://www.kkhanhhoang.com/development/2022/10/01/stm-revolution.html"/>
+   <updated>2022-10-01T05:18:00+00:00</updated>
+   <id>https://www.kkhanhhoang.com/development/2022/10/01/stm-revolution</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ukraine Map Info Hub</title>
+   <link href="https://www.kkhanhhoang.com/development/2022/04/10/ukraine-map-info-hub.html"/>
+   <updated>2022-04-10T07:00:00+00:00</updated>
+   <id>https://www.kkhanhhoang.com/development/2022/04/10/ukraine-map-info-hub</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Educational Assistant Discord Bot</title>
+   <link href="https://www.kkhanhhoang.com/development/2021/11/01/educational-assistant-discord-bot.html"/>
+   <updated>2021-11-01T07:00:00+00:00</updated>
+   <id>https://www.kkhanhhoang.com/development/2021/11/01/educational-assistant-discord-bot</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>EmoteImgify</title>
+   <link href="https://www.kkhanhhoang.com/development/2021/07/30/emoteimgify.html"/>
+   <updated>2021-07-30T07:00:00+00:00</updated>
+   <id>https://www.kkhanhhoang.com/development/2021/07/30/emoteimgify</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>MemeSupreme</title>
+   <link href="https://www.kkhanhhoang.com/development/2020/03/01/memesupreme.html"/>
+   <updated>2020-03-01T08:00:00+00:00</updated>
+   <id>https://www.kkhanhhoang.com/development/2020/03/01/memesupreme</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>
