@@ -37,7 +37,7 @@ admin_name: Khanh Hoang
 profile_pic: "/uploads/profilekhanh.png"
 resume_file: "/uploads/ResumeNoContact.pdf"
 google_analytics: G-5EKTESEZK0
-enable_contact: true
+enable_contact: false
 enable_nav: true
 nav_item:
 - url: "/"
